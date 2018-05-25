@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>New York Paper</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+   
+</head>
+<body>
+    <div class='container'>
+        <header>
+            <div class='row'>
+        <div clas='col-sm-12'>
+            <h1>New York Time Search</h1>
+        </div>
+        </div>
+    </header>
+    <div class='row'>
+       <div class='col-sm-12'>
+           <h3>Search Parameters</h3>
+           <form>
+               <div class='form-group'>
+               <label for="searchterm">Search Term:</label>
+               <input type='text' name='searchterm'>
+               </div>
+               <div class='form-group'>
+               <label for='numrecords'>Num Records:</label>
+               <input type='text' name='numrecords'>
+            </div>
+            <div class='form-group'>
+               <label for='startyear'>Start year:</label>
+               <input type='text' name='startyear'>
+            </div>
+            <div class='form-group'>
+               <label for='endyear'>End year:</label>
+               <input type='text' name='endyear'>
+            </div>
+            <button id='search' type='submit' class='btn btn-primary'>Search</button>
+            <button id='clear'  type='reset' class='btn btn-light'>Clear</button>
+           </form>
+           
+       </div>
+    </div>
+</body>
+</html>
