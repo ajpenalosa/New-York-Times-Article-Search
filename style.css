@@ -1,40 +1,74 @@
+/* -----------------------------------
+	Typography
+----------------------------------- */
+
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|PT+Sans+Narrow:400,700');
-body{font-family:"Open Sans", Arial, Helvetica, sans-serif}
 
-h1,h2,h3,h4,h5,h6{font-family:"PT Sans Narrow",Arial, Helvetica, sans-serif;
-                  text-transform:uppercase;
-                  font-weight:700;}
-
-
-section{
-    border:1px solid #ccc;
-    border-radius:7px;
-    margin:15px 0;
-    overflow:hidden;
+body {
+    font-family:"Open Sans", Arial, Helvetica, sans-serif;
 }
 
-section h3{
-    background-color:lemonchiffon;
-    padding:20px;
-    border-bottom:2px solid #ccc;
+h1, h2, h3, h4, h5, h6 {
+    font-family: "PT Sans Narrow",Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
 }
 
-section form{
-    padding:20px
+/* -----------------------------------
+	Sections
+----------------------------------- */
+
+section {
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    margin: 15px 0;
+    overflow: hidden;
 }
 
-label{font-weight:bold;}
-
-button#clear{
-    border:1px solid #777;
+section h3 {
+    background-color: lemonchiffon;
+    padding: 20px;
+    border-bottom: 2px solid #ccc;
 }
 
-header{padding:40px 0;
-       background-color:bisque;
-       border-radius:7px;
-       margin-top:20px;}
+section form {
+    padding: 20px
+}
 
-/*
-i{position:relative;
-  bottom:60px;
-  left:275px;} */
+label {
+    font-weight: bold;
+}
+
+button#clear {
+    border: 1px solid #777;
+}
+
+header {
+    padding: 40px 0;
+    background-color :bisque;
+    border-radius: 7px;
+    margin-top: 20px;
+}
+
+/* -----------------------------------
+	Articles
+----------------------------------- */
+
+.article {
+    margin: 20px;
+    border-bottom: 1px solid #CCC;
+    padding-bottom: 20px;
+}
+
+.article:last-of-type {
+    border-bottom: 0;
+}
+
+.article h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.article p {
+    margin-bottom: 20px;
+}
